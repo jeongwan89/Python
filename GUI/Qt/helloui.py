@@ -1,6 +1,6 @@
 import sys
 from PySide2 import QtCore, QtWidgets
-from hello import *
+from GUI.Qt.hello import *
 
 class ControlMainWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):

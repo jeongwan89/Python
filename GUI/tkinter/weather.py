@@ -4,7 +4,7 @@ try:
     from tkinter import *
 except ImportError:
     from urllib2 import urlopen #python 2
-    from Tkinter import *
+    from tkinter import *
 
 def get_weather(city):
     page = urlopen("http://www.kma.go.kr/weather/observation/currentweather.jsp")
